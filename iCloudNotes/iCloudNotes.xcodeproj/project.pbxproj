@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAC709F1C3DC18A00471DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC709E1C3DC18A00471DAC /* AppDelegate.swift */; };
+		7FAC70A11C3DC18A00471DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC70A01C3DC18A00471DAC /* ViewController.swift */; };
+		7FAC70A41C3DC18A00471DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC70A21C3DC18A00471DAC /* Main.storyboard */; };
+		7FAC70A61C3DC18A00471DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC70A51C3DC18A00471DAC /* Assets.xcassets */; };
+		7FAC70A91C3DC18A00471DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC70A71C3DC18A00471DAC /* LaunchScreen.storyboard */; };
+		7FAC70B41C3DC18A00471DAC /* iCloudNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC70B31C3DC18A00471DAC /* iCloudNotesTests.swift */; };
+		7FAC70BF1C3DC18A00471DAC /* iCloudNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC70BE1C3DC18A00471DAC /* iCloudNotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAC70B01C3DC18A00471DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAC70931C3DC18A00471DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAC709A1C3DC18A00471DAC;
+			remoteInfo = iCloudNotes;
+		};
+		7FAC70BB1C3DC18A00471DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAC70931C3DC18A00471DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAC709A1C3DC18A00471DAC;
+			remoteInfo = iCloudNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FAC709B1C3DC18A00471DAC /* iCloudNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAC709E1C3DC18A00471DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FAC70A01C3DC18A00471DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FAC70A31C3DC18A00471DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FAC70A51C3DC18A00471DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAC70A81C3DC18A00471DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FAC70AA1C3DC18A00471DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAC70AF1C3DC18A00471DAC /* iCloudNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAC70B31C3DC18A00471DAC /* iCloudNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudNotesTests.swift; sourceTree = "<group>"; };
+		7FAC70B51C3DC18A00471DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAC70BA1C3DC18A00471DAC /* iCloudNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAC70BE1C3DC18A00471DAC /* iCloudNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudNotesUITests.swift; sourceTree = "<group>"; };
+		7FAC70C01C3DC18A00471DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAC70981C3DC18A00471DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC70AC1C3DC18A00471DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC70B71C3DC18A00471DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAC70921C3DC18A00471DAC = {
+			isa = PBXGroup;
+			children = (
+				7FAC709D1C3DC18A00471DAC /* iCloudNotes */,
+				7FAC70B21C3DC18A00471DAC /* iCloudNotesTests */,
+				7FAC70BD1C3DC18A00471DAC /* iCloudNotesUITests */,
+				7FAC709C1C3DC18A00471DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAC709C1C3DC18A00471DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC709B1C3DC18A00471DAC /* iCloudNotes.app */,
+				7FAC70AF1C3DC18A00471DAC /* iCloudNotesTests.xctest */,
+				7FAC70BA1C3DC18A00471DAC /* iCloudNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAC709D1C3DC18A00471DAC /* iCloudNotes */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC709E1C3DC18A00471DAC /* AppDelegate.swift */,
+				7FAC70A01C3DC18A00471DAC /* ViewController.swift */,
+				7FAC70A21C3DC18A00471DAC /* Main.storyboard */,
+				7FAC70A51C3DC18A00471DAC /* Assets.xcassets */,
+				7FAC70A71C3DC18A00471DAC /* LaunchScreen.storyboard */,
+				7FAC70AA1C3DC18A00471DAC /* Info.plist */,
+			);
+			path = iCloudNotes;
+			sourceTree = "<group>";
+		};
+		7FAC70B21C3DC18A00471DAC /* iCloudNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC70B31C3DC18A00471DAC /* iCloudNotesTests.swift */,
+				7FAC70B51C3DC18A00471DAC /* Info.plist */,
+			);
+			path = iCloudNotesTests;
+			sourceTree = "<group>";
+		};
+		7FAC70BD1C3DC18A00471DAC /* iCloudNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAC70BE1C3DC18A00471DAC /* iCloudNotesUITests.swift */,
+				7FAC70C01C3DC18A00471DAC /* Info.plist */,
+			);
+			path = iCloudNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAC709A1C3DC18A00471DAC /* iCloudNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAC70C31C3DC18A00471DAC /* Build configuration list for PBXNativeTarget "iCloudNotes" */;
+			buildPhases = (
+				7FAC70971C3DC18A00471DAC /* Sources */,
+				7FAC70981C3DC18A00471DAC /* Frameworks */,
+				7FAC70991C3DC18A00471DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCloudNotes;
+			productName = iCloudNotes;
+			productReference = 7FAC709B1C3DC18A00471DAC /* iCloudNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAC70AE1C3DC18A00471DAC /* iCloudNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAC70C61C3DC18A00471DAC /* Build configuration list for PBXNativeTarget "iCloudNotesTests" */;
+			buildPhases = (
+				7FAC70AB1C3DC18A00471DAC /* Sources */,
+				7FAC70AC1C3DC18A00471DAC /* Frameworks */,
+				7FAC70AD1C3DC18A00471DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAC70B11C3DC18A00471DAC /* PBXTargetDependency */,
+			);
+			name = iCloudNotesTests;
+			productName = iCloudNotesTests;
+			productReference = 7FAC70AF1C3DC18A00471DAC /* iCloudNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FAC70B91C3DC18A00471DAC /* iCloudNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAC70C91C3DC18A00471DAC /* Build configuration list for PBXNativeTarget "iCloudNotesUITests" */;
+			buildPhases = (
+				7FAC70B61C3DC18A00471DAC /* Sources */,
+				7FAC70B71C3DC18A00471DAC /* Frameworks */,
+				7FAC70B81C3DC18A00471DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAC70BC1C3DC18A00471DAC /* PBXTargetDependency */,
+			);
+			name = iCloudNotesUITests;
+			productName = iCloudNotesUITests;
+			productReference = 7FAC70BA1C3DC18A00471DAC /* iCloudNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAC70931C3DC18A00471DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jeff_Chiu;
+				TargetAttributes = {
+					7FAC709A1C3DC18A00471DAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5D8BAGAC5C;
+					};
+					7FAC70AE1C3DC18A00471DAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5D8BAGAC5C;
+						TestTargetID = 7FAC709A1C3DC18A00471DAC;
+					};
+					7FAC70B91C3DC18A00471DAC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5D8BAGAC5C;
+						TestTargetID = 7FAC709A1C3DC18A00471DAC;
+					};
+				};
+			};
+			buildConfigurationList = 7FAC70961C3DC18A00471DAC /* Build configuration list for PBXProject "iCloudNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAC70921C3DC18A00471DAC;
+			productRefGroup = 7FAC709C1C3DC18A00471DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAC709A1C3DC18A00471DAC /* iCloudNotes */,
+				7FAC70AE1C3DC18A00471DAC /* iCloudNotesTests */,
+				7FAC70B91C3DC18A00471DAC /* iCloudNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAC70991C3DC18A00471DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAC70A91C3DC18A00471DAC /* LaunchScreen.storyboard in Resources */,
+				7FAC70A61C3DC18A00471DAC /* Assets.xcassets in Resources */,
+				7FAC70A41C3DC18A00471DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC70AD1C3DC18A00471DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC70B81C3DC18A00471DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAC70971C3DC18A00471DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAC70A11C3DC18A00471DAC /* ViewController.swift in Sources */,
+				7FAC709F1C3DC18A00471DAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC70AB1C3DC18A00471DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAC70B41C3DC18A00471DAC /* iCloudNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC70B61C3DC18A00471DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAC70BF1C3DC18A00471DAC /* iCloudNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAC70B11C3DC18A00471DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAC709A1C3DC18A00471DAC /* iCloudNotes */;
+			targetProxy = 7FAC70B01C3DC18A00471DAC /* PBXContainerItemProxy */;
+		};
+		7FAC70BC1C3DC18A00471DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAC709A1C3DC18A00471DAC /* iCloudNotes */;
+			targetProxy = 7FAC70BB1C3DC18A00471DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAC70A21C3DC18A00471DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAC70A31C3DC18A00471DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FAC70A71C3DC18A00471DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAC70A81C3DC18A00471DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAC70C11C3DC18A00471DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAC70C21C3DC18A00471DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAC70C41C3DC18A00471DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCloudNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Chiu.iCloudNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FAC70C51C3DC18A00471DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCloudNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Chiu.iCloudNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FAC70C71C3DC18A00471DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCloudNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Chiu.iCloudNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCloudNotes.app/iCloudNotes";
+			};
+			name = Debug;
+		};
+		7FAC70C81C3DC18A00471DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCloudNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Chiu.iCloudNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCloudNotes.app/iCloudNotes";
+			};
+			name = Release;
+		};
+		7FAC70CA1C3DC18A00471DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iCloudNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Chiu.iCloudNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCloudNotes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7FAC70CB1C3DC18A00471DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iCloudNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jeff.Chiu.iCloudNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCloudNotes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAC70961C3DC18A00471DAC /* Build configuration list for PBXProject "iCloudNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAC70C11C3DC18A00471DAC /* Debug */,
+				7FAC70C21C3DC18A00471DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAC70C31C3DC18A00471DAC /* Build configuration list for PBXNativeTarget "iCloudNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAC70C41C3DC18A00471DAC /* Debug */,
+				7FAC70C51C3DC18A00471DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FAC70C61C3DC18A00471DAC /* Build configuration list for PBXNativeTarget "iCloudNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAC70C71C3DC18A00471DAC /* Debug */,
+				7FAC70C81C3DC18A00471DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FAC70C91C3DC18A00471DAC /* Build configuration list for PBXNativeTarget "iCloudNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAC70CA1C3DC18A00471DAC /* Debug */,
+				7FAC70CB1C3DC18A00471DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAC70931C3DC18A00471DAC /* Project object */;
+}
