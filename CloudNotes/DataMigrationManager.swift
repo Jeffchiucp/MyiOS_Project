@@ -7,6 +7,7 @@
 import Foundation
 import CoreData
 
+
 class DataMigrationManager {
   let storeName: String
   let modelName: String

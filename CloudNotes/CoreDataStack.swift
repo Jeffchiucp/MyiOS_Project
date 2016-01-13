@@ -7,6 +7,7 @@
 import Foundation
 import CoreData
 
+
 class CoreDataStack: CustomStringConvertible {
   var modelName : String
   var storeName : String

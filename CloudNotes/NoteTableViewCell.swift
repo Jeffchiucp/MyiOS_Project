@@ -25,6 +25,5 @@ class NoteTableViewCell: UITableViewCell {
     if let image = note?.image {
       noteImage.image = image
     }
-  }
-  
+  }  
 }

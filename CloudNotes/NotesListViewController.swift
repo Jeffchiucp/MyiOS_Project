@@ -6,6 +6,7 @@
 import UIKit
 import CoreData
 
+
 class NotesListViewController: UITableViewController, NSFetchedResultsControllerDelegate {
   lazy var stack : CoreDataStack = {
     let manager = DataMigrationManager(

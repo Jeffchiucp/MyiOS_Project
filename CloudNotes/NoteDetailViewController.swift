@@ -21,6 +21,7 @@ class NoteDetailViewController: UIViewController {
     }
   }
   
+    
   override func viewWillAppear(animated: Bool) {
     updateNoteInfo()
   }

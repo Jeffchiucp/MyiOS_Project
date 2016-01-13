@@ -10,7 +10,6 @@ import CoreData
 class AttachPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
   
   var note : Note?
-  
   lazy var imagePicker : UIImagePickerController = {
     let picker = UIImagePickerController()
     picker.sourceType = .PhotoLibrary
@@ -19,6 +18,8 @@ class AttachPhotoViewController: UIViewController, UIImagePickerControllerDelega
     return picker
     }()
   
+    
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     view.addSubview(imagePicker.view)
