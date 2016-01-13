@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -148,7 +148,7 @@
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				ORGANIZATIONNAME = "Jeff Chiu";
 				TargetAttributes = {
 					C77E1E761947D6D700762492 = {
 						CreatedOnToolsVersion = 6.0;
@@ -162,7 +162,7 @@
 				};
 			};
 			buildConfigurationList = C77E1E721947D6D700762492 /* Build configuration list for PBXProject "CloudNotes" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
